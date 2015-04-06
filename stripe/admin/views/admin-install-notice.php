@@ -27,5 +27,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<a href="<?php echo add_query_arg( 'page', $this->plugin_slug, admin_url( 'admin.php' ) ); ?>" class="button-primary"><?php _e( 'Get started by entering your Stripe keys', 'sc' ); ?></a>
 		<a href="<?php echo add_query_arg( 'sc-dismiss-install-nag', 1 ); ?>" class="button-secondary"><?php _e( 'Hide this', 'sc' ); ?></a>
 	</p>
-	<button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss this notice.</span></button>
 </div>
